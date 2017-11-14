@@ -1,11 +1,11 @@
 {
   "personalizations" : [
     {
-      "to": {"email": "alice@example.com"},
+      "to": [{"email": "alice@example.com"}],
       "substitutions": {"-name-": "アリス"}
     },
     {
-      "to": {"email": "bob@sink.sendgrid.net"},
+      "to": [{"email": "bob@sink.sendgrid.net"}],
       "substitutions": {"-name-": "ボブ"}
     }
   ],
