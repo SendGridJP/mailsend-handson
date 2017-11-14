@@ -1,0 +1,20 @@
+{
+  "personalizations" : [
+    {
+      "to": {"email": "alice@example.com"},
+      "substitutions": {"-name-": "アリス"}
+    },
+    {
+      "to": {"email": "bob@example.com"},
+      "substitutions": {"-name-": "ボブ"}
+    }
+  ],
+  "from": {"email": "sender@example.com"},
+  "subject": "メール件名",
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "-name-様 メール本文"
+    }
+  ]
+}
