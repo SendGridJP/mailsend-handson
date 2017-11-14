@@ -5,7 +5,7 @@
       "substitutions": {"-name-": "アリス"}
     },
     {
-      "to": {"email": "bob@example.com"},
+      "to": {"email": "bob@sink.sendgrid.net"},
       "substitutions": {"-name-": "ボブ"}
     }
   ],
