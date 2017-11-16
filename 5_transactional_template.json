@@ -1,0 +1,24 @@
+{
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "successful@example.com",
+          "name": "実際に届く宛先"
+        }
+      ]
+    }
+  ],
+  "from": {
+    "email": "sam.smith@example.com",
+    "name": "送信者アドレス"
+  },
+  "subject": "メール件名",
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "メール本文\r\nhttps://sendgrid.kke.co.jp/"
+    }
+  ],
+  "template_id": "ダッシュボードで確認したテンプレートIDをペースト"
+}
