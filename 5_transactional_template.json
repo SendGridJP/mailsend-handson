@@ -18,6 +18,10 @@
     {
       "type": "text/plain",
       "value": "メール本文\r\nhttps://sendgrid.kke.co.jp/"
+    },
+    {
+      "type": "text/html",
+      "value": "メール本文<br />https://sendgrid.kke.co.jp/"
     }
   ],
   "template_id": "ダッシュボードで確認したテンプレートIDをペースト"
