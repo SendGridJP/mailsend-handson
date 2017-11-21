@@ -1,23 +1,15 @@
 {
   "personalizations": [
     {
-      "to": [
-        {
-          "email": "bounce_address_example@kke.co.jp",
-          "name": "バウンスが発生する宛先"
-        }
-      ]
+      "to": [{"email": "bounce_address_example@kke.co.jp"}]
     }
   ],
-  "from": {
-    "email": "sam.smith@example.com",
-    "name": "送信者アドレス"
-  },
+  "from": {"email": "sender@example.com"},
   "subject": "メール件名",
   "content": [
     {
       "type": "text/plain",
-      "value": "メール本文"
+      "value": "メール本文\r\nhttps://sendgrid.kke.co.jp/"
     }
   ]
 }

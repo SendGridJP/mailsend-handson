@@ -1,18 +1,10 @@
 {
   "personalizations": [
     {
-      "to": [
-        {
-          "email": "successful@example.com",
-          "name": "実際に届く宛先"
-        }
-      ]
+      "to": [{"email": "successful@example.com"}]
     }
   ],
-  "from": {
-    "email": "sam.smith@example.com",
-    "name": "送信者アドレス"
-  },
+  "from": {"email": "senderh@example.com"},
   "subject": "メール件名",
   "content": [
     {
