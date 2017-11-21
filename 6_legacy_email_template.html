@@ -1,0 +1,20 @@
+{
+  "personalizations" : [
+    {
+      "to": [{"email": "alice@example.com"}],
+      "substitutions": {"-name-": "アリス"}
+    },
+    {
+      "to": [{"email": "bob@sink.sendgrid.net"}],
+      "substitutions": {"-name-": "ボブ"}
+    }
+  ],
+  "from": {"email": "sender@example.com"},
+  "subject": "メール件名",
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "-name-様\r\nメール本文"
+    }
+  ]
+}
