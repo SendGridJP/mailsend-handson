@@ -1,0 +1,19 @@
+{
+  "personalizations": [
+    {
+      "to": [{"email": "successful@example.com"}]
+    }
+  ],
+  "from": {"email": "sender@example.com"},
+  "subject": "メール件名",
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "メール本文\r\nhttps://sendgrid.kke.co.jp"
+    },
+    {
+      "type": "text/plain",
+      "value": "メール本文<br><a href='https://sendgrid.kke.co.jp'>リンク</a>"
+    }
+  ]
+}
