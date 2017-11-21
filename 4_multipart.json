@@ -12,7 +12,7 @@
       "value": "メール本文\r\nhttps://sendgrid.kke.co.jp"
     },
     {
-      "type": "text/plain",
+      "type": "text/html",
       "value": "メール本文<br><a href='https://sendgrid.kke.co.jp'>リンク</a>"
     }
   ]
