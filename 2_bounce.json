@@ -1,7 +1,7 @@
 {
   "personalizations": [
     {
-      "to": [{"email": "bounce_address_example@kke.co.jp"}]
+      "to": [{"email": "bounce_address_example@wataru.aodaruma.com"}]
     }
   ],
   "from": {"email": "sender@example.com"},
