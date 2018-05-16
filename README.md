@@ -3,3 +3,4 @@
 
 - [APIリファレンス](https://sendgrid.com/docs/API_Reference/api_v3.html)
 - [テンプレート機能で利用するサイト](https://www.sendwithus.com/resources/templates)
+- [RequestBin](https://wataru-request-bin.herokuapp.com)
