@@ -1,0 +1,18 @@
+{
+  "personalizations": [
+    {
+      "to": [{"email": "successful@example.com"}]
+    }
+  ],
+  "from": {"email": "sender@example.com"},
+  "subject": "メール件名",
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "メール本文\r\n配信停止を管理する：<%asm_preferences_raw_url%>"
+    }
+  ],
+  "asm": {
+    "group_id": 配信停止グループID
+  }
+}
