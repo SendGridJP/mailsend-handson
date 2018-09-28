@@ -1,0 +1,15 @@
+{
+  "personalizations": [
+    {
+      "to": [{"email": "successful@example.com"}],
+      "dynamic_template_data": {
+        "name": {
+          "last": "構造",
+          "first": "太郎"
+        }
+      }
+    }
+  ],
+  "from": {"email": "sender@example.com"},
+  "template_id": "ダッシュボードで確認したテンプレートIDをペースト"
+}
