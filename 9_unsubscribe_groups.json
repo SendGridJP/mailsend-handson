@@ -13,7 +13,7 @@
     },
     {
       "type": "text/html",
-      "value": "メール本文<br><a href='https://sendgrid.kke.co.jp'>リンク</a><br><a href='<%asm_preferences_raw_url%>'>配信停止を管理する</a>"
+      "value": "メール本文<br><a href='https://sendgrid.kke.co.jp'>リンク</a><br>配信停止は<a href='<%asm_preferences_raw_url%>'>こちら</a>"
     }
   ],
   "asm": {
