@@ -9,7 +9,7 @@
   "content": [
     {
       "type": "text/plain",
-      "value": "メール本文\r\n配信停止を管理する：<%asm_group_unsubscribe_raw_url%>"
+      "value": "メール本文\r\nリンク：https://sendgrid.kke.co.jp\r\n配信停止はこちら：<%asm_group_unsubscribe_raw_url%>"
     },
     {
       "type": "text/html",
